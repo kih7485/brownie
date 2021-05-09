@@ -12,7 +12,9 @@ const AppNavbar = () => {
                         Brownie
                 </Link>
                 
-                <Input/>    
+                    <Input
+                        placeholder="검색어를 입력하세요."
+                    />
 
                 <NavbarToggler />
                 <Collapse isOpen={true} navbar>
